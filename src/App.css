@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+.cat-image {
+  width: 50%; /* Set the desired width for the images */
+  height: auto; /* Auto-adjust the height to maintain the aspect ratio */
+}
+
+.alphabet-filter {
+  display: flex;
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+  margin: 10px 0;
+}
+
+.alphabet-filter span {
+  cursor: pointer;
+  margin: 0 5px;
+  font-size: 1.2rem;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.alphabet-filter span.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+ul {
+  list-style: none; /* Remove bullet points */
+}
+
+p {
+  margin-left: 23%;
+  margin-right: 23%;
+}
